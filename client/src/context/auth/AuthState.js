@@ -33,7 +33,6 @@ const AuthState = (props) => {
     const userData = await response.json();
     setLoggedInUserData(userData);
     console.log(userData);
-    console.log("ok");
   };
 
 
